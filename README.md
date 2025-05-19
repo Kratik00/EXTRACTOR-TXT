@@ -1,15 +1,3 @@
-<p align="center">
-  <a href="https://t.me/spidy-bots">
-    <img src="https://img.shields.io/badge/SPIDY-BOTS-303030?style=for-the-badge&logo=telegram&logoColor=white"/>
-  </a>
-</p>
-
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=1000&center=true&vCenter=true&multiline=true&repeat=true&width=500&lines=TXT+EXTRACTOR;Extract+content+from+multiple+edtech+apps;Click+%2Fstart+to+begin"/>
-</h1>
-
----
-
 ### ⚙️ Features
 - Extracts Txt from **AppxV2 & AppxV3** platforms
 - Supports **Khan GS**, **ClassPlus**, and **PW (PhysicsWallah)**
@@ -21,20 +9,6 @@
 
 ### 🚀 How to Use
 Just send `/start` — all features are handled via buttons.
-
----
-
-### 📸 Screenshots
-<p align="center">
-  <img src="img/1.jpg" width="45%"/>
-  <img src="img/2.jpg" width="45%"/><br>
-  <img src="img/3.jpg" width="45%"/>
-  <img src="img/4.jpg" width="45%"/><br>
-  <img src="img/5.jpg" width="45%"/>
-  <img src="img/6.jpg" width="45%"/>
-</p>
-
----
 ### 🔑 Required Environment Variables (.env)
 You need to set the following variables for the bot to run. These are read using `os.environ.get()` in the code.
 
@@ -57,7 +31,7 @@ CHANNEL_ID=-100xxxxxxxxxx  # Telegram channel ID with -100 prefix
 
 ---
 ### ☁️ Deploy to Render
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Popeye68/TXT-EXTRACTOR)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kratik00/EXTRACTOR-TXT)
 
 ### ☁️ Deploy to Heroku (Manual)
 ```bash
@@ -70,45 +44,3 @@ CHANNEL_ID=-100xxxxxxxxxx  # Telegram channel ID with -100 prefix
 
 ---
 
-### 🖥️ VPS Installation
-```bash
-sudo apt update && sudo apt install git python3-pip -y
-git clone https://github.com/Popeye68/TXT-EXTRACTOR
-cd TXT-EXTRACTOR
-pip3 install -r requirements.txt
-
-# Set your API credentials
-export API_ID=123456
-export API_HASH=your_api_hash
-export BOT_TOKEN=your_bot_token
-
-# Run the bot
-python3 bot.py
-```
-
----
-
-### 🔧 Customize Freely
-Feel free to **fork this repo**, add your own tweaks, and build your own version.
-
----
-
-### ⭐ GitHub Buttons
-
-<p align="center">
-  <a href="https://github.com/Popeye68/TXT-EXTRACTOR/stargazers">
-    <img src="https://img.shields.io/github/stars/Popeye68/TXT-EXTRACTOR.svg?style=for-the-badge&label=Stars&logo=github" />
-  </a>
-  <a href="https://github.com/Popeye68/TXT-EXTRACTOR/network/members">
-    <img src="https://img.shields.io/github/forks/Popeye68/TXT-EXTRACTOR.svg?style=for-the-badge&label=Forks&logo=github" />
-  </a>
-</p>
-
-
-
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://t.me/spidy_bots">Spidy</a>
-</p>
